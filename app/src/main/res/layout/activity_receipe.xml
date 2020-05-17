@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Featured">
+    tools:context=".Receipe">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -131,7 +131,7 @@
 
         android:layout_marginRight="179dp"
         android:layout_marginBottom="601dp"
-        android:text="Featured"
+        android:text="Receipes"
         android:textColor="@android:color/white"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"

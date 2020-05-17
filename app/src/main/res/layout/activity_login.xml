@@ -10,13 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#1C1E20"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/passwordinput"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/Password"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="305dp"
+        android:background="@drawable/password"
         android:ems="10"
         android:fontFamily="sans-serif"
         android:inputType="textPassword"
@@ -24,13 +31,21 @@
         android:text="Password"
         android:textColor="#8F8F8F"
         android:textSize="24dp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/usernameinput"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="353dp"
         android:background="@drawable/userid"
         android:ems="10"
         android:fontFamily="sans-serif"
@@ -39,55 +54,89 @@
         android:text="User ID"
         android:textColor="#8F8F8F"
         android:textSize="24dp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/loginbee"
         android:layout_width="220dp"
         android:layout_height="220dp"
-        app:srcCompat="@drawable/loadingbee"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="78dp" />
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="433dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loadingbee" />
 
     <Button
         android:id="@+id/signinbutton"
         android:layout_width="320dp"
         android:layout_height="40dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="230dp"
         android:background="@drawable/signinbutton"
         android:fontFamily="sans-serif"
         android:text="Sign In"
         android:textAllCaps="false"
         android:textColor="#8F8F8F"
         android:textSize="24dp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="461dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/forgotpasswordbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginBottom="182dp"
         android:background="@android:color/transparent"
         android:fontFamily="sans-serif"
         android:text="Forgot your password?"
         android:textAllCaps="false"
         android:textColor="#8F8F8F"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="501dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/newaccountbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="33dp"
         android:background="@android:color/transparent"
         android:fontFamily="sans-serif"
         android:text="Don't have an account?  Sign up!"
         android:textAllCaps="false"
         android:textColor="#8F8F8F"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="650dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
