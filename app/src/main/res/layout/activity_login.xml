@@ -6,4 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/Background"
+        />
+
+    <ImageView
+        android:id="@+id/loginbee"
+        android:layout_width="207.67dp"
+        android:layout_height="207.67dp"
+        app:srcCompat="@drawable/loadingbee"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <ImageView
+        android:id="@+id/usernameinput"
+        android:layout_width="283dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/Username"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:layout_width="68dp"
+        android:layout_height="22dp"
+        android:id="@+id/usernametext"
+        android:text="Username"
+        android:textColor=""/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
