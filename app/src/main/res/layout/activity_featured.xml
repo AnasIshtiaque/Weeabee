@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Featured">
+
+<ImageView
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/topbar"
+    tools:layout_editor_absoluteY="-17dp" />
+
+<ImageView
+    android:id="@+id/recipethumbnailbee"
+    android:layout_width="85dp"
+    android:layout_height="85dp"
+    app:srcCompat="@drawable/thumbnailbee"
+    tools:layout_editor_absoluteX="40dp"
+    tools:layout_editor_absoluteY="-4dp" />
+
+<TextView
+    android:id="@+id/featuredheadertext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif"
+    android:text="Featured"
+    android:textColor="#FFFFFF"
+    android:textSize="40dp"
+    tools:layout_editor_absoluteX="136dp"
+    tools:layout_editor_absoluteY="10dp" />
+
+<ImageView
+    android:id="@+id/bottombar"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/bottombar"
+    tools:layout_editor_absoluteY="696dp" />
+
+<ImageView
+    android:id="@+id/profileicon"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="324dp"
+    android:layout_marginLeft="324dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/profileicon"
+    tools:layout_editor_absoluteY="725dp" />
+
+<ImageView
+    android:id="@+id/houseicon"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="28dp"
+    android:layout_marginLeft="28dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/house"
+    tools:layout_editor_absoluteY="730dp" />
+
+<ImageView
+    android:id="@+id/pantryicon"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="124dp"
+    android:layout_marginLeft="124dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/plus"
+    tools:layout_editor_absoluteY="729dp" />
+
+<ImageView
+    android:id="@+id/searchicon"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="224dp"
+    android:layout_marginLeft="224dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:srcCompat="@drawable/searchicon"
+    tools:layout_editor_absoluteY="730dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
