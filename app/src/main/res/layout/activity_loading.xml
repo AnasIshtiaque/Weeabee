@@ -9,24 +9,8 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/Background"
+        android:background="@drawable/Loading"
         />
-
-    <ImageView
-        android:id="@+id/loadingbee"
-        android:layout_width="207.67dp"
-        android:layout_height="207dp"
-        app:srcCompat="@drawable/loadingbee"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="180dp" />
-
-    <ImageView
-        android:id="@+id/weeabeetext"
-        android:layout_width="170dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/weeabooloading"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="140dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
